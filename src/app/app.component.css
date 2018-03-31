@@ -1,0 +1,11 @@
+.line{
+    border: solid 1px #f00;
+}
+
+.back{
+    background-color: #0ff;
+}
+
+.fore{
+    color:red;
+}
