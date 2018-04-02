@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ImportComponent } from '../import/import.component';
 
 @Component({
   selector: 'app-chapter4',
@@ -13,5 +14,7 @@ export class Chapter4Component implements OnInit {
   }
 
   title:string = "HOGEhoge";
+
+  banner:any = ImportComponent;
 
 }
