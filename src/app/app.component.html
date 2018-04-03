@@ -29,3 +29,12 @@
 <!-- 双方向データバインディング -->
 名前:<input type="text" id="name" name="name" [(ngModel)]="myName" />
 <div>こんにちは{{myName}}</div>
+
+<div>
+  <ul>
+    <li><a routerLink="/">ルート</a></li>
+    <li><a routerLink="/test">test</a></li>
+  </ul>
+</div>
+<hr>
+<router-outlet></router-outlet>

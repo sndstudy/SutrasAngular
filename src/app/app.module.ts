@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { Chapter4Component } from './chapter4/chapter4.component';
 import { ImportComponent } from './import/import.component';
 
+import {MY_ROUTES} from './app.routing'
+
 
 @NgModule({
   declarations: [
@@ -15,7 +17,8 @@ import { ImportComponent } from './import/import.component';
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    MY_ROUTES
   ],
   entryComponents:[
     ImportComponent
